@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block header %}
+{{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <div class="row main-content"><div class="large-12 columns">
+        {% include "cms/include_content.html" %}
+    </div></div>
+{% endblock %}

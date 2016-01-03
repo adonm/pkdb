@@ -7,7 +7,8 @@ On ubuntu 14.04 setup:
 
 ```
 cd pkdb
-apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk python3-dev build-essential python3-pip libpq-dev
+apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk python3-dev build-essential python3-pip libpq-dev npm
+sudo npm install -g foundation-cli
 pyvenv-3.4 venv
 . venv/bin/activate
 pip install -r requirements.txt

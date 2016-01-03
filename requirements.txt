@@ -1,0 +1,8 @@
+Django>=1.9,<1.10
+wagtail==1.3
+python-social-auth
+django-uwsgi
+uwsgi
+psycopg2
+django-extensions
+ipython
